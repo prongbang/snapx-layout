@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/white"
+	android:orientation="horizontal"
+	android:weightSum="1">
+
+	<androidx.appcompat.widget.AppCompatImageView
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="24dp"
+		android:layout_marginTop="20dp"
+		android:layout_marginEnd="8dp"
+		android:layout_marginBottom="16dp"
+		android:layout_weight="0.25"
+		android:adjustViewBounds="true"
+		android:src="@drawable/innotech" />
+
+	<LinearLayout
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_vertical"
+		android:layout_weight="0.75"
+		android:orientation="vertical"
+		android:paddingStart="16dp"
+		android:paddingTop="16dp"
+		android:paddingEnd="16dp"
+		android:paddingBottom="16dp">
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/name_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			tools:text="Devไปวันๆ" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/position_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			tools:text="Co-Founder" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/department_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			tools:text="R&amp;D and Innovation Labs" />
+
+		<View
+			android:id="@+id/separate_line"
+			android:layout_width="match_parent"
+			android:layout_height="1dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="8dp"
+			android:background="#E4E4E4" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/company_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			tools:text="Innotech Development Co., Ltd." />
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/address_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/black"
+			android:textSize="18sp"
+			tools:text="Bangkok, Thailand" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/phone_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="16dp"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			tools:text="M +66 (0) 9 8 765 4321" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:id="@+id/email_text"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="8dp"
+			android:textColor="@color/black"
+			android:textSize="20sp"
+			tools:text="info@innotechdev.co.th" />
+
+	</LinearLayout>
+
+</LinearLayout>
